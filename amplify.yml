@@ -1,4 +1,9 @@
 version: 1
+env:
+  variables: 
+    AMPLIFY_NEXTJS_EXPERIMENTAL_TRACE: true
+    SLS_DEBUG: true
+    SLS_INTERACTIVE_SETUP_ENABLE: 1
 applications:
   - frontend:
       phases:
